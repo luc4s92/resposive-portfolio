@@ -256,25 +256,49 @@ section .title::after{
     
 }
 
-.about .about-content i{
-    
-}
-
 .about .about-content .right a:hover{
     color: crimson;
     background: none;
     
 }
 
+.about .about-content .right  .linkedin{  
+    background: #0e76a8;
+    border: 2px solid #0e76a8;   
+}
+.about .about-content .right  .linkedin:hover{
+    color: #0e76a8;
+    background: none;
+}
+
+.about .about-content .right  .github{
+    background: #333;
+    border: 2px solid #333;   
+}
+.about .about-content .right  .github:hover{
+    color: #333;
+    background: none;
+}
+
+.about .about-content .right .facebook{
+    background: #3b5998;
+    border: 2px solid #3b5998;
+}
+
+.about .about-content .right .facebook:hover{
+    color: #3b5998;
+    background: none;
+}
+
  /* services section styling */
- .services, .tech-skills{
-     color: #fff;
-     background: #111;
- }
- .services .title::before,
- .tech-skills .title::before{
-     background: #fff;
- }
+.services, .tech-skills{
+    color: #fff;
+    background: #111;
+}
+.services .title::before,
+.tech-skills .title::before{
+    background: #fff;
+}
 .services .title::after,
 .tech-skills .title::after{
     background: #111;
@@ -283,6 +307,7 @@ section .title::after{
 
 .services .serv-content .card{
     width: calc(33%  - 20px);
+    height: 300px;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -688,8 +713,7 @@ footer span a:hover{
         font-size: 25px;
     }
     .home .home-content .text-2{
-        font-size: 70px;
-       
+        font-size: 70px;     
     }
     
     .home .home-content .text-3{
@@ -733,8 +757,7 @@ footer span a:hover{
         }
     
     .home .home-content .text-2{
-        font-size: 60px;
-           
+        font-size: 60px;          
         }
         
     .home .home-content .text-3{
@@ -742,8 +765,7 @@ footer span a:hover{
             
         }
     .home .home-content a{
-        font-size: 20px;
-       
+        font-size: 20px;     
     }
     .services .serv-content .card
     {
@@ -755,15 +777,12 @@ footer span a:hover{
     }
 }
 
-@media (max-width: 500px){
-  
+@media (max-width: 500px){ 
     .home .home-content .text-2{
-        font-size: 50px;
-           
+        font-size: 50px;          
         }
         
     .home .home-content .text-3{
-        font-size: 27px;
-            
+        font-size: 27px;          
         }
 }
